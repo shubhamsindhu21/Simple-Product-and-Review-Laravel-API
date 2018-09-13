@@ -27,4 +27,44 @@ class User extends Authenticatable
     protected $hidden = [
         'password', 'remember_token',
     ];
+
+
+    // User::getUsers(NULL,NULL);       
+    // User::getUsers();
+
+
+    // public function getUsers(Type $name = NULL, Type $id = NULL)
+    // {
+
+    //     if($name){
+    //         return $this::get("return by name");
+
+    //     }elseif( $id){
+    //         return $this::get("return by id");
+
+    //     }else{
+    //         return $this::get("getall user");
+
+    //     }
+    //     # code...
+    //     return NULL;
+
+    // } 
+
+    // public function getUsers()
+    // {
+
+       
+    //         return $this::get("getall user");
+
+        
+    //     # code...
+
+    // } 
+
+    // public function getUserById(Type $var = null)
+    // {
+    //     return $this::whe
+
+    // }
 }
